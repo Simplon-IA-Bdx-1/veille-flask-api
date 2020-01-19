@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let's predict</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Enter your data for prediction</h1>
+        <form action="/predict" method="post">
+            <label for="sepal-length">Sepal length:</label>
+            <input type="text" id="sepal-length" name="sepal-length"/>
+            <label for="sepal-width">Sepal width:</label>
+            <input type="text" id="sepal-width" name="sepal-width"/>
+            <label for="petal-length">Petal length:</label>
+            <input type="text" id="petal-length" name="petal-length"/>
+            <label for="petal-width">Petal width:</label>
+            <input type="text" id="petal-width" name="petal-width"/>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
